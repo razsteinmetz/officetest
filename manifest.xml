@@ -9,11 +9,11 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="base"/>
   <Description DefaultValue="Testing."/>
-  <IconUrl DefaultValue="https://razsteinmetz.github.io/assets/forex-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://razsteinmetz.github.io/assets/forex-64.png"/>
-  <SupportUrl DefaultValue="https://razsteinmetz.github.io/help"/>
+  <IconUrl DefaultValue="https://razsteinmetz.github.io/officetest/assets/forex-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://razsteinmetz.github.io/officetest/assets/forex-64.png"/>
+  <SupportUrl DefaultValue="https://razsteinmetz.github.io/officetest/help"/>
   <AppDomains>
-    <AppDomain>https://razsteinmetz.github.io</AppDomain>
+    <AppDomain>https://razsteinmetz.github.io/officetest</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Workbook"/>
@@ -24,7 +24,7 @@
     </Sets>
   </Requirements>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://razsteinmetz.github.io/taskpane.html"/>
+    <SourceLocation DefaultValue="https://razsteinmetz.github.io/officetest/taskpane.html"/>
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
@@ -87,15 +87,15 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://razsteinmetz.github.io/assets/forex-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://razsteinmetz.github.io/assets/forex-32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://razsteinmetz.github.io/assets/forex-80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://razsteinmetz.github.io/officetest/assets/forex-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://razsteinmetz.github.io/officetest/assets/forex-32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://razsteinmetz.github.io/officetest/assets/forex-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Functions.Script.Url" DefaultValue="https://razsteinmetz.github.io/functions.js"/>
-        <bt:Url id="Functions.Metadata.Url" DefaultValue="https://razsteinmetz.github.io/functions.json"/>
+        <bt:Url id="Functions.Script.Url" DefaultValue="https://razsteinmetz.github.io/officetest/functions.js"/>
+        <bt:Url id="Functions.Metadata.Url" DefaultValue="https://razsteinmetz.github.io/officetest/functions.json"/>
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://razsteinmetz.github.io/taskpane.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://razsteinmetz.github.io/officetest/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="Functions.Namespace" DefaultValue="sage"/>
@@ -110,7 +110,7 @@
     </Resources>
     <WebApplicationInfo>
       <Id>e083c07e-4466-494c-ae9e-76083d1bde81</Id>
-      <Resource>api://razsteinmetz.github.io/e083c07e-4466-494c-ae9e-76083d1bde81</Resource>
+      <Resource>api://razsteinmetz.github.io/officetest/e083c07e-4466-494c-ae9e-76083d1bde81</Resource>
       <Scopes>
         <Scope>Files.Read</Scope>
         <Scope>profile</Scope>
